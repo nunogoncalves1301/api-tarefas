@@ -1,0 +1,21 @@
+### Usa a extensão "REST Client" do VS Code para testar estes pedidos
+
+GET http://localhost:3000/tarefas
+
+###
+POST http://localhost:3000/tarefas
+Content-Type: application/json
+
+{ "titulo": "Estudar Express", "descricao": "Rotas e middleware" }
+
+###
+GET http://localhost:3000/tarefas?concluida=false&pesquisa=estudar
+
+###
+PUT http://localhost:3000/tarefas/COLOCA_AQUI_O_ID
+Content-Type: application/json
+
+{ "concluida": true }
+
+###
+DELETE http://localhost:3000/tarefas/COLOCA_AQUI_O_ID

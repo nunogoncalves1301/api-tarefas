@@ -1,0 +1,14 @@
+{
+  "name": "api-tarefas",
+  "version": "1.0.0",
+  "description": "API REST simples para gestão de tarefas (CRUD) com Node.js e Express",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
